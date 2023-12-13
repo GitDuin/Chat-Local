@@ -1,0 +1,45 @@
+body{
+    background-image: url("images/flamengo_bg_dark.png");
+    background-repeat: initial;
+    background-size:cover;
+    color: #CF0A0A;
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    text-shadow: 2px 0 #EEEEEE, -2px 0 #EEEEEE, 0 2px #EEEEEE, 0 -2px #EEEEEE,
+    1px 1px #EEEEEE, -1px -1px #EEEEEE, 1px -1px #EEEEEE, -1px 1px #EEEEEE;;
+}
+
+#editor{
+    border: 1px solid #EEEEEE;
+    color: #EEEEEE;
+}
+
+audio{
+    display: grid;
+    position: fixed;
+    left: 80%;
+    bottom: 89%;
+}
+button{
+    display: grid;
+    position: fixed;
+    top: 95%;
+    left: 97%;
+
+}
+.light-mode{
+    background-image: url("images/flamengo_bg_light.jpg");
+    background-repeat: initial;
+    background-size:cover;
+}
+
+.titulo{
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;;
+}
+

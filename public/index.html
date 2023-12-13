@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Chat</title>
+</head>
+<body>
+
+    <header>
+            <h2>Flamengo Chat</h2> <img src="images/flamengo_logo.png" alt="" width="5%">
+    </header>
+
+    <audio controls>
+        <source src="audio/lenontamborconga.mp3" type="audio/mp3">
+     </audio> 
+
+    <button onclick="lightmode();">
+        <span class="material-symbols-outlined">
+            wallpaper_slideshow
+            </span>
+    </button>
+    <main>
+
+        <div id="editor" contenteditable="true" spellcheck="false"></div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
