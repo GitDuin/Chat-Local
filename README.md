@@ -1,8 +1,8 @@
 # Chat-Local
 
--Crie uma pasta para ser o diretorio raiz do projeto
--Mova os arquivos do projeto para a pasta criada
--Abra o diretorio raiz com um editor de sua escolha e, no console, digite essas linhas de comando:
+- Crie uma pasta para ser o diretorio raiz do projeto
+- Mova os arquivos do projeto para a pasta criada
+- Abra o diretorio raiz com um editor de sua escolha e, no console, digite essas linhas de comando:
 
 ```
 npm init -y
