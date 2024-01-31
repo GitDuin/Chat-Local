@@ -7,10 +7,11 @@
 ```
 npm init -y
 ```
-
+> Inicia um projeto node
 ```
 npm install express http socket.io path
 ```
+> Instala as dependências do projeto
 
 No DiretorioRaiz/package.json insira a linha "start" como está no trecho de comando abaixo:
 
