@@ -13,7 +13,7 @@ npm install express http socket.io path
 ```
 > Instala as dependências do projeto
 
-No DiretorioRaiz/package.json insira a linha "start" como está no trecho de comando abaixo:
+- No DiretorioRaiz/package.json insira a linha "start" como está no trecho de comando abaixo:
 
 ```
   "scripts": {
@@ -21,6 +21,9 @@ No DiretorioRaiz/package.json insira a linha "start" como está no trecho de com
     "start": "node server.js"
   },
 ```
+- Para iniciar o projeto digite os comandos:
 
+```
   node server.js
-  
+```
+
