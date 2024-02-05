@@ -28,7 +28,7 @@ npm install express http socket.io path
 ```
 > Em seu terminal será exibido a porta do seu "server"
 
-- Para acessar o projeto digite no navegador a URL "http://localhost:", e depois dos dois-pontos(:) digite a porta exibida no terminal, por exemplo, "http://localhost:3000"
+- Para acessar o projeto digite no navegador a URL "http://localhost:", e depois dos dois-pontos digite a porta exibida no terminal, por exemplo, "http://localhost:3000"
 
 > Para compartilhar o servidor com alguém, não é necessario os arquivos do projeto ou os passos descritos anteriormente, apenas a URL com a porta descrita!
 
