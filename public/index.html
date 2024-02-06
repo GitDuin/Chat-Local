@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Chat</title>
 </head>
-<body>
+<body id="site" class="dark-mode">
 
     <header>
-            <h2>Flamengo Chat</h2> <img src="images/flamengo_logo.png" alt="" width="5%">
+            <h2>CHAT-LOCAL</h2>
     </header>
 
-    <audio controls>
-        <source src="audio/lenontamborconga.mp3" type="audio/mp3">
-     </audio> 
 
-    <button onclick="lightmode();">
-        <span class="material-symbols-outlined">
-            wallpaper_slideshow
-            </span>
-    </button>
+
     <main>
-
-        <div id="editor" contenteditable="true" spellcheck="false"></div>
+        <div class="row">
+            <div class="col-1"><br></div>
+            <div id="editor" class="col-10" contenteditable="true" spellcheck="false"></div>
+            <div class="col-1"><br></div>
+        </div>
+        
     </main>
 
-    <footer>
-
-    </footer>
+    
+    <div class="row">
+        <button class="col-1" onclick="lightmode();">
+            <span class="material-symbols-outlined">
+                wallpaper_slideshow
+                </span>
+        </button>
+        <div class="col-11"><br></div>
+    </div>
     
     <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
     <script src="script.js"></script>

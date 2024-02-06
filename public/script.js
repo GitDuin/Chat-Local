@@ -22,8 +22,10 @@ class ChatClient {
 const chatClient = new ChatClient();
 
 function lightmode() {
-    var element = document.body;
-    element.classList.toggle("light-mode");
-    var element2 = document.h2;
-    element2.classList.toggle("titulo");
+    if(document.getElementById("site").className == "dark-mode")
+    document.getElementById("site").className = "light-mode";
+
+    else
+    document.getElementById("site").className = "dark-mode";
+
   }
